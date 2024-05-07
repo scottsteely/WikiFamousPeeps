@@ -23,10 +23,10 @@ Wiki Famous People -*- mode: org -*-
 ** The Bash Script:
 *YOU NEED A TERMINAL THAT CAN DISPLAY SIXEL IMAGES*
 
-*** Looks in ./wiki_pis for SIXEL
-*** Pick one from random
-*** CAT the corisponding txt file with TPUT
-*** CAT the SIXEL
+ Looks in ./wiki_pis for SIXEL
+ Pick one from random
+ CAT the corresponding txt file with TPUT
+ CAT the SIXEL
 
 ** WHY WOULD YOU DO THIS???
 
