@@ -38,3 +38,12 @@ Wiki Famous People -*- mode: org -*-
 3. Format the blur better
 4. Add link to the blurb
 5. Make it fancier with imagemagick
+
+* Here it is in action!
+
+![til](https://github.com/scottsteely/WikiFamousPeeps/blob/main/example.gif?raw=true)
+
+
+
+
+![til](https://raw.githubusercontent.com/hashrocket/hr-til/master/app/assets/images/banner.png)
