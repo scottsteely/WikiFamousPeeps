@@ -1,3 +1,9 @@
+"""
+I'm going to comment this, but I'm tired.
+
+
+"""
+
 from SPARQLWrapper import SPARQLWrapper2
 import json
 import urllib.request
