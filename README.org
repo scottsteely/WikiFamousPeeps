@@ -1,3 +1,12 @@
+Wiki Famous People -*- mode: org -*-
+
+* Wikipedia Semi famous person downloader
+** The idea for this frankienstien of python script came from the fact that I wanted something like neofetch for interesting wikipedia people. That way when ever I open my terminal I have a new interesting person to learn about.
+
+
+
+
+
 ** Lord of the Rings
    My favorite scenes are (in this order)
    1. The attack of the Rohirrim
@@ -12,3 +21,5 @@
    - Elijah Wood :: He plays Frodo
    - Sean Austin :: He plays Sam, Frodo's friend.  I still remember
      him very well from his role as Mikey Walsh in The Goonies.
+
+     * this is a new line
