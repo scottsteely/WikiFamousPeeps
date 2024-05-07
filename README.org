@@ -41,4 +41,4 @@ Wiki Famous People -*- mode: org -*-
 
 * Here it is in action!
 
-https://github.com/scottsteely/WikiFamousPeeps/blob/main/example.gif
+[[https://github.com/scottsteely/WikiFamousPeeps/blob/main/example.gif]]
