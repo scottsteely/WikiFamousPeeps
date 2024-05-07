@@ -4,20 +4,37 @@ Wiki Famous People -*- mode: org -*-
 
 ** The Python Script:
 
-*** Get a set of random people from *Wikidata* that meet the following criteria:
+*** Wikidata
+ Get a set of random people from *Wikidata* that meet the following criteria:
         1. Born on the year provided by rand()
         2. Has a pic on file
         3. Is not a sports figure
         4. The associated wiki article has a minimum of 20 inbound inter-wiki site links
 
-*** After getting the list from *Wikidata* it will then use the *Wikipedia* API to get the text version of the article. For the blurb only the first 2 sentences are retained. Dump this into a txt file with the corresponding name.
+*** Wikipedia
+ After getting the list from *Wikidata* it will then use the *Wikipedia* API to get the text version of the article. For the blurb only the first 2 sentences are retained. Dump this into a txt file with the corresponding name.
 
-*** After that, it will request a specific size image from Wikipedia so that we don't get huge pictures and we have a set column with for later.
+ After that, it will request a specific size image from Wikipedia so that we don't get huge pictures and we have a set column with for later.
 
-*** Using Image Magick, convert the pictures in SIXEL format for the terminal.
+ Using Image Magick, convert the pictures in SIXEL format for the terminal.
 
         - Image Magick :: because I might want to add a border or post processing later
 
-*** The idea for this Frankenstein python script came from the fact that I wanted something like neofetch for interesting Wikipedia people. That way when ever I open my terminal I have a new interesting person to learn about.
-
 ** The Bash Script:
+*YOU NEED A TERMINAL THAT CAN DISPLAY SIXEL IMAGES*
+
+*** Looks in ./wiki_pis for SIXEL
+*** Pick one from random
+*** CAT the corisponding txt file with TPUT
+*** CAT the SIXEL
+
+** WHY WOULD YOU DO THIS???
+
+ The idea for this Frankenstein python script came from the fact that I wanted something like neofetch for interesting Wikipedia people. That way when ever I open my terminal I have a new interesting person to learn about.
+
+** TODO:
+1. Check if ./wiki_pics is there
+2. Comment so stuff
+3. Format the blur better
+4. Add link to the blurb
+5. Make it fancier with imagemagick
