@@ -107,7 +107,7 @@ print("\n Querying WikiData with custom SPARQL payload")
 
 progression_bar = tqdm(sparql.query().bindings)
 for result in progression_bar:
-    progression_bar.set_description("Getting peep « %s »" % str(person.name))
+    # progression_bar.set_description("Getting peep « %s »" % str(person.name))
 
     wiki_Q = (f"{result['item'].value}").lstrip("http://www.wikidata.org/entity/")
     urlData = (
