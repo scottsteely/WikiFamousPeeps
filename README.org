@@ -1,25 +1,19 @@
 Wiki Famous People -*- mode: org -*-
 
-* Wikipedia Semi famous person downloader
-** The idea for this frankienstien of python script came from the fact that I wanted something like neofetch for interesting wikipedia people. That way when ever I open my terminal I have a new interesting person to learn about.
+* Wikipedia /Semi/ famous person downloader
 
+** Get a set of random people from *Wikidata* that meet the following criteria:
+        1. Born on the year provided by rand()
+        2. Has a pic on file
+        3. Is not a sports figure
+        4. The associated wiki article has a minimum of 20 inbound inter-wiki site links
 
+** After getting the list from *Wikidata* it will then use the *Wikipedia* API to get the text version of the article. For the blurb only the first 2 sentences are retained. Dump this into a txt file with the corresponding name.
 
+** After that, it will request a specific size image from Wikipedia so that we don't get huge pictures and we have a set column with for later.
 
+** Using Image Magick, convert the pictures in SIXEL format for the terminal.
 
-** Lord of the Rings
-   My favorite scenes are (in this order)
-   1. The attack of the Rohirrim
-   2. Eowyn's fight with the witch king
-      + this was already my favorite scene in the book
-      + I really like Miranda Otto.
-   3. Peter Jackson being shot by Legolas
-       - on DVD only
-      He makes a really funny face when it happens.
-   But in the end, no individual scenes matter but the film as a whole.
-   Important actors in this film are:
-   - Elijah Wood :: He plays Frodo
-   - Sean Austin :: He plays Sam, Frodo's friend.  I still remember
-     him very well from his role as Mikey Walsh in The Goonies.
+        - Image Magick :: because I might want to add a border or post processing later
 
-     * this is a new line
+** The idea for this Frankenstein python script came from the fact that I wanted something like neofetch for interesting Wikipedia people. That way when ever I open my terminal I have a new interesting person to learn about.
